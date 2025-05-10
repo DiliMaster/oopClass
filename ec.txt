@@ -1,0 +1,26 @@
+public class Car {
+    // Fields (attributes)
+    private String brand;
+    private String model;
+    private int year;
+
+    // Constructor
+    public Car(String brand, String model, int year) {
+        this.brand = brand;
+        this.model = model;
+        this.year = year;
+    }
+
+    // Methods
+    public void startEngine() {
+        System.out.println("Engine started!");
+    }
+
+    public void stopEngine() {
+        System.out.println("Engine stopped!");
+    }
+
+    public void displayInfo() {
+        System.out.println("Car: " + brand + " " + model + " (" + year + ")");
+    }
+}
